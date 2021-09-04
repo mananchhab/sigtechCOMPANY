@@ -269,3 +269,19 @@ section {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+@media only screen and (max-width: 600px) {
+  .navbar {
+    position: absolute;
+    margin: auto;
+    font-size: 23px;
+    padding-left: 40px;
+    width: 100%;
+    top: 0;
+  }
+  .navbar-nav {
+    margin: auto;
+    font-size: 18px;
+    top: 0;
+    background-color: black;
+  }
+}
