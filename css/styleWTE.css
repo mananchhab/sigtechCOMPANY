@@ -45,7 +45,7 @@ html {
   text-align: left;
   padding: 50px 60px 40px;
   overflow: hidden;
-  bottom: 0;
+  display: inline-block;
 }
 
 section {
@@ -255,7 +255,6 @@ section {
   padding-top: 60px;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: ;
   color: white;
 }
 .innercontent {
@@ -271,8 +270,7 @@ section {
 
 .main {
   position: absolute;
-  overflow: hidden;
-  height: 100vh;
+
   text-align: center;
   width: 100%;
   z-index: 100;
@@ -281,4 +279,5 @@ section {
 
 .wte1 {
   padding-left: 6rem;
+  padding-right: 6rem;
 }
